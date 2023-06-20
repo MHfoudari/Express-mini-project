@@ -9,7 +9,7 @@ const MovieSchema = new Schema({
     Number,
     // required: true,
     // min: 0,
-    // max: 10,
+    // max: 10,,,,
   ],
 });
 module.exports = model("Movie", MovieSchema);
